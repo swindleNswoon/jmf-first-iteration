@@ -1,0 +1,10 @@
+$body-font-stack: 'Open Sans', sans-serif;
+$heading-font-stack: 'Pangolin', cursive;
+
+body {
+    font: 100% $body-font-stack;
+}
+
+h1 {
+    font: 100% $heading-font-stack;
+}
