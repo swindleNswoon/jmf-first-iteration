@@ -1,6 +1,9 @@
 @extends('layouts.app')
 @section('content')
-<h1>donate</h1>
+
+    <div class="container">
+        <h5><span>Donate</span></h5>
+    </div>
 
 <div class="container">
     @if(count($errors) > 0)
@@ -46,7 +49,7 @@
         {{Form::text('phone', '', ['class' => 'form-control'])}}
     </div>
     <div>
-        {{Form::submit('Submit', ['class'=> 'btn btn-primary'])}}
+        {{Form::submit('Select Payment Method', ['class'=> 'btn btn-primary'])}}
     </div>
 {!! Form::close() !!}
 </div>

@@ -8,8 +8,8 @@
 </head>
 <body>
 <nav class="navbar navbar-expand-lg navbar-light">
-    <a class="navbar-brand" href="/">
-        <img src="public/img/jmfLogoSmall2.png" class="d-inline-block">
+    <a class="navbar-brand logo-link" href="/">
+        <img class="d-inline-block" src={{asset('img/jmfLogoSmall2.png')}}>
         Jack Mattsson Foundation
     </a>
     <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -31,14 +31,6 @@
 
     </div>
 </nav>
-@section('heading')
-    <div class="container">
-        <div class="row justify-content-center">
-            <img src="public/img/jmfLogo2.png" class="img-fluid logo">
-            <h1>Jack Mattsson <br>Foundation</h1>
-        </div>
-        @show
-    </div>
 @yield('content')
 
     <footer>
@@ -54,6 +46,10 @@
                 <li><p class="smaller">Address:</p>
                     <p class="smaller">The Jack Mattsson Foundation <br>224 Pinelynn Rd <br>Glen Rock, NJ 07452</p></li>
             </ul>
+        </div>
+        <div class="container">
+            <p><small>&copy; 2018-<?php echo date("Y"); ?> Jack Mattsson Foundation, All rights reserved.</small></p>
+            <p><small>Site Development by Brian Lynch</small></p>
         </div>
     </footer>
 </body>

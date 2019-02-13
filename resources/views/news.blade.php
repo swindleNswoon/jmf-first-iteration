@@ -4,9 +4,9 @@
     <h5><span>News/Events</span></h5>
 </div>
 <div class="container">
-    <h3>News/Upcoming Events</h3>
+    <h3>Upcoming Events</h3>
     <p>Come and back and visit our site soon for news about future events we are planning,
-        i.e. The Inaugeral Jack Mattsson Foundation Gala.</p>
+        i.e. The Inaugural Jack Mattsson Foundation Gala.</p>
 </div>
 
 <div class="container">
@@ -14,8 +14,8 @@
     <h3 style="color: black; font-family: 'Open Sans', sans-serif">Manhattan College Women's Soccer vs Niagra University</h3>
     <div class="row">
         <div class="col-md-6">
-            <img src="public/img/coolAndGang.jpg" class="img-fluid img-margin">
-            <img src="public/img/check.jpg" class="img-fluid img-margin">
+            <img class="img-fluid img-margin" src={{asset('img/coolAndGang.jpg')}}>
+            <img  class="img-fluid img-margin" src={{asset('img/check.jpg')}}>
         </div>
         <div class="col-md-6">
             <p>We had our first fundraiser in October 2018.
@@ -39,7 +39,7 @@
     </div>
     <div class="row">
         <div class="col-md-12">
-            <img src="public/img/errybody.jpg" class="img-fluid img-margin">
+            <img class="img-fluid img-margin" src={{asset('img/errybody.jpg')}} >
         </div>
     </div>
 </div>

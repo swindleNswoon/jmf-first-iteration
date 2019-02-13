@@ -1,8 +1,6 @@
 @extends('layouts.app')
-@section('heading')
-@parent
-@endsection
 @section('content')
+    @include('inc.header')
 <div class="container">
     <p>The Jack Mattsson Foundation was established in 2018 to honor our son/brother
         Jack and his wishes after losing a battle against Osteosarcoma in 2017. It is a rare

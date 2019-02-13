@@ -1,8 +1,9 @@
 @extends('layouts.app')
-@section('heading')
-    @parent
-@endsection
 @section('content')
+    @include('inc.header')
+    <div class="container">
+        <h5><span>About</span></h5>
+    </div>
 <div class="container">
     <h3>About Jack and his Army:</h3>
     <p>Jack, born in the Bronx and raised in Glen Rock, NJ, was a 19 year old college student who had just

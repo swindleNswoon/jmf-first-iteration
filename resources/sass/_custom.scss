@@ -1,10 +1,94 @@
+//Variables
 $body-font-stack: 'Open Sans', sans-serif;
 $heading-font-stack: 'Pangolin', cursive;
+$mets-blue: #004B8E;
+$mets-orange: #F57D2F;
+$news-image-margin: 10px;
 
+
+//Extends
+%links-color {
+    color: $mets-blue;
+}
+
+
+//StyleSheet begins
 body {
-    font: 100% $body-font-stack;
+    font: 1.2em $body-font-stack;
+    color: #333333;
+}
+
+h1, h3, h5 {
+    font-family: $heading-font-stack;
+    color: $mets-blue;
 }
 
 h1 {
-    font: 100% $heading-font-stack;
+    font-size: 3.3em;
+}
+
+h3 {
+    font-size: 1.8em;
+}
+
+//Font Styles
+
+a {
+    color: $mets-blue;
+    font-size: 1.3em;
+}
+
+.logo-link {
+    font-family: $heading-font-stack;
+}
+
+.navbar-light .navbar-brand {
+    @extend %links-color;
+    font-family: $heading-font-stack;
+    font-size: 1.8em;
+}
+
+.navbar-light .navbar-brand:hover {
+    @extend %links-color;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    @extend %links-color;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    @extend %links-color;
+}
+
+.underline:hover {
+    border-bottom: $mets-orange 3px solid;
+}
+
+#donate:hover {
+    background-color: $mets-orange;
+}
+// Nav Styles
+
+h5 {
+    width: 100%;
+    text-align: center;
+    border-bottom: 1px solid #000000;
+    line-height: 0.1em;
+    margin: 10px 0 20px;
+}
+
+h5 span {
+    background: #f8fafc;
+    padding: 0 10px;
+}
+/*Header Styles*/
+
+.logo {
+    max-height: 200px;
+    max-width: 200px;
+}
+//About Styles
+
+.img-margin {
+    margin: $news-image-margin;
 }

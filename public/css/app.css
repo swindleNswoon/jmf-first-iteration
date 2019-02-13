@@ -10491,12 +10491,77 @@ a.text-dark:focus {
   }
 }
 
+.navbar-light .navbar-nav .nav-link:hover,
+.navbar-light .navbar-nav .nav-link,
+.navbar-light .navbar-brand:hover,
+.navbar-light .navbar-brand {
+  color: #004B8E;
+}
+
 body {
-  font: 100% "Open Sans", sans-serif;
+  font: 1.2em "Open Sans", sans-serif;
+  color: #333333;
+}
+
+h1,
+h3,
+h5 {
+  font-family: "Pangolin", cursive;
+  color: #004B8E;
 }
 
 h1 {
-  font: 100% "Pangolin", cursive;
+  font-size: 3.3em;
+}
+
+h3 {
+  font-size: 1.8em;
+}
+
+a {
+  color: #004B8E;
+  font-size: 1.3em;
+}
+
+.logo-link {
+  font-family: "Pangolin", cursive;
+}
+
+.navbar-light .navbar-brand {
+  font-family: "Pangolin", cursive;
+  font-size: 1.8em;
+}
+
+.underline:hover {
+  border-bottom: #F57D2F 3px solid;
+}
+
+#donate:hover {
+  background-color: #F57D2F;
+}
+
+h5 {
+  width: 100%;
+  text-align: center;
+  border-bottom: 1px solid #000000;
+  line-height: 0.1em;
+  margin: 10px 0 20px;
+}
+
+h5 span {
+  background: #f8fafc;
+  padding: 0 10px;
+}
+
+/*Header Styles*/
+
+.logo {
+  max-height: 200px;
+  max-width: 200px;
+}
+
+.img-margin {
+  margin: 10px;
 }
 
 .navbar-laravel {
