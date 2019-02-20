@@ -10564,6 +10564,22 @@ h5 span {
   margin: 10px;
 }
 
+.credit {
+  max-width: 200px;
+  max-height: 200px;
+  margin-top: -15px;
+  margin-left: 75px;
+}
+
+.paypal-container {
+  margin-left: 40px;
+  margin-top: 10px;
+}
+
+.oh-no {
+  margin-bottom: 100px;
+}
+
 .navbar-laravel {
   background-color: #fff;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);

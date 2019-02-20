@@ -29,6 +29,6 @@ class InfoController extends Controller
         //Save user info in database
         $info->save();
 
-        return redirect('/');
+        return redirect('/payment');
     }
 }

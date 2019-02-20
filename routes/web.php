@@ -27,4 +27,12 @@ Route::get('/donate', function () {
     return view('donate');
 });
 
+Route::get('/payment', function () {
+    return view('payment');
+});
+
+Route::get('/failure', function () {
+    return view('failure');
+});
+
 Route::post('info/submit', 'InfoController@submit');
