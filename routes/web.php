@@ -35,4 +35,8 @@ Route::get('/failure', function () {
     return view('failure');
 });
 
+Route::get('/thanks', function () {
+    return view('thanks');
+});
+
 Route::post('info/submit', 'InfoController@submit');
