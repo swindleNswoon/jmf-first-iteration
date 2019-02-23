@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Jack Mattsson Foundation</title>
-    <link rel="stylesheet" href="/css/app.css">
+    <link href="{{ asset('css/app.css') }}" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans|Pangolin" rel="stylesheet">
 </head>
 <body>
@@ -52,5 +52,6 @@
             <p><small>Site Development by Brian Lynch</small></p>
         </div>
     </footer>
+<script src="{{ asset('js/app.js') }}"></script>
 </body>
 </html>
