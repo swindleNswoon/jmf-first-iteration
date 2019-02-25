@@ -16,6 +16,7 @@ $news-image-margin: 10px;
 body {
     font: 1.2em $body-font-stack;
     color: #333333;
+    background-color: #fff;
 }
 
 h1, h3, h5 {
@@ -78,7 +79,7 @@ h5 {
 }
 
 h5 span {
-    background: #f8fafc;
+    background: #fff;
     padding: 0 10px;
 }
 /*Header Styles*/

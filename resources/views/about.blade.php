@@ -1,6 +1,5 @@
 @extends('layouts.app')
 @section('content')
-    @include('inc.header')
     <div class="container">
         <h5><span>About</span></h5>
     </div>
@@ -13,9 +12,8 @@
         With a large support group of family, friends, and community, Jack took the fight to cancer with the help
         from his army of supporters.</p>
     <p>Despite treatment after treatment failing, losing his hair, appetite, and weight, never ending blood
-        transfusions, multiple surgeries, having to learn to walk again and countless days spent in hospitals, he
-        grieved selflessly never feeling sorry for himself, always continuing to fight, and believing the next
-        treatment would work.</p>
+        transfusions, multiple surgeries, having to learn to walk again and countless days spent in hospitals, he never
+        felt sorry for himself, always continuing to fight and believing the next treatment would work.</p>
     <p>The night before he died, as he struggled to breathe, he said “Dad, what’s on the agenda for tomorrow?”</p>
     <p>He was a joy to be around right to the end.</p>
     <p>His army of supporters was an important part of Jack’s motivation and commitment to make the most of
