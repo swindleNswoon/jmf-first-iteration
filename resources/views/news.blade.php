@@ -5,13 +5,16 @@
 </div>
 <div class="container">
     <h3>Upcoming Events</h3>
-    <p>Come and back and visit our site soon for news about future events we are planning,
-        i.e. The Inaugural Jack Mattsson Foundation Gala.</p>
+    <h3 class="nostyle">The Jack Mattsson Foundation First Annual Barbecue</h3>
+    <h3 class="nostyle">Saturday June 15, 2019 from 2p-7p at the American Legion Post
+    33 West Passaic St, Rochelle Park, NJ 07662</h3>
+    <p>Spend a day enjoying great food, drink, people and games all while raising money for the Jack Mattsson Foundation!
+        Rain or Shine! The pavilion is equipped for any inclement weather.</p>
 </div>
 
 <div class="container">
     <h3>Past Events</h3>
-    <h3 style="color: black; font-family: 'Open Sans', sans-serif">Manhattan College Women's Soccer vs Niagra University</h3>
+    <h3 class="nostyle">Manhattan College Women's Soccer vs Niagra University</h3>
     <div class="row">
         <div class="col-md-6">
             <img class="img-fluid img-margin" src={{asset('img/coolAndGang.jpg')}}>
