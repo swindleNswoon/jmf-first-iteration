@@ -32,6 +32,11 @@ h3 {
     font-size: 1.8em;
 }
 
+.action-h3 {
+    font-family: $body-font-stack;
+    color: $mets-orange;
+}
+
 .nostyle {
     font-family: $body-font-stack;
     color: #333333;

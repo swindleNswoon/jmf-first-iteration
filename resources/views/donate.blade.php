@@ -5,6 +5,7 @@
         <h5><span>Donate</span></h5>
     </div>
 
+
 <div class="container">
     @if(count($errors) > 0)
         @foreach($errors->all() as $error)
@@ -17,16 +18,20 @@
 <div class="container">
 {!! Form::open(['url' => 'info/submit']) !!}
     <div class="form-group">
-        {{Form::label('firstname', 'First Name')}}
+        {{Form::label('firstname', 'First Name*')}}
         {{Form::text('firstname', '', ['class' => 'form-control'])}}
     </div>
     <div class="form-group">
-        {{Form::label('lastname', 'Last Name')}}
+        {{Form::label('lastname', 'Last Name*')}}
         {{Form::text('lastname', '', ['class' => 'form-control'])}}
     </div>
     <div class="form-group">
         {{Form::label('address', 'Address')}}
         {{Form::text('address', '', ['class' => 'form-control'])}}
+    </div>
+    <div class="form-group">
+        {{Form::label('city', 'City')}}
+        {{Form::text('city', '', ['class' => 'form-control'])}}
     </div>
     <div class="form-group">
         {{Form::label('state', 'State/Province')}}
@@ -41,7 +46,7 @@
         {{Form::text('zip', '', ['class' => 'form-control'])}}
     </div>
     <div class="form-group">
-        {{Form::label('email', 'E-Mail')}}
+        {{Form::label('email', 'E-Mail*')}}
         {{Form::text('email', '', ['class' => 'form-control'])}}
     </div>
     <div class="form-group">
@@ -53,4 +58,7 @@
     </div>
 {!! Form::close() !!}
 </div>
+    <div class="container">
+        <p>*=required</p>
+    </div>
 @endsection
