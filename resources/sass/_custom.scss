@@ -19,7 +19,7 @@ body {
     background-color: #fff;
 }
 
-h1, h3, h5 {
+h1, h3, h5, h4 {
     font-family: $heading-font-stack;
     color: $mets-blue;
 }
@@ -92,11 +92,20 @@ h5 span {
     background: #fff;
     padding: 0 10px;
 }
-/*Header Styles*/
 
 .logo {
     max-height: 200px;
     max-width: 200px;
+/*Header Styles*/
+
+}
+
+footer {
+    margin-top: 125px;
+}
+//Footer Styles
+.osteo-container {
+    margin-top: 20px;
 }
 //About Styles
 
@@ -104,7 +113,17 @@ h5 span {
     margin: $news-image-margin;
 }
 
+.upcoming-container {
+    margin-bottom: 75px;
+}
+
 //News Styles
+
+.required {
+    margin-top: 25px;
+}
+
+//donate styles
 
 .credit {
     max-width: 200px;

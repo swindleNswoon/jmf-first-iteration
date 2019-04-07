@@ -3,15 +3,17 @@
 <div class="container">
     <h5><span>News/Events</span></h5>
 </div>
-<div class="container">
+<div class="container upcoming-container">
     <h3>Upcoming Events</h3>
     <h3 class="action-h3">Our first annual Pig Roast and BBQ:</h3>
+    <h4>** HOLD THE DATE **</h4>
     <p>Saturday June 15, 2019 2pm - 7pm <br> The American Legion Post <br> 33 West Passaic St, Rochelle Park, NJ 07662</p>
     <h3 class="action-h3">The only 3 letters better than B-B-Q are J-M-F, you’ll get them both</h3>
     <p>Come out and have some fun! Spend a day enjoying great food, drink, people,
         and games all while raising money for the Jack Mattsson Foundation
         This is rain or shine! In the event of any showers we’ve got that covered
         (literally), the pavilion is equipped for all sorts of weather</p>
+    <h4>More details to follow</h4>
 </div>
 
 <div class="container">

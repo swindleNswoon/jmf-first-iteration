@@ -19,7 +19,7 @@
     <p>His army of supporters was an important part of Jack’s motivation and commitment to make the most of
         every day right to the end. He is still an inspiration to us all.</p>
 </div>
-<div class="container">
+<div class="container osteo-container">
     <h3>About Osteosarcoma:</h3>
     <p>Osteosarcoma is a rare form of bone cancer that mostly affects children, adolescents, and young adults.
         While any of the body’s 206 bones can be affected, 50 percent of young patients have tumors near the

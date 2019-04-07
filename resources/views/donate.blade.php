@@ -58,7 +58,7 @@
     </div>
 {!! Form::close() !!}
 </div>
-    <div class="container">
+    <div class="container required">
         <p>*=required</p>
     </div>
 @endsection
