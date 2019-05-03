@@ -9,11 +9,32 @@
     <h4>** HOLD THE DATE **</h4>
     <p>Saturday June 15, 2019 2pm - 7pm <br> The American Legion Post <br> 33 West Passaic St, Rochelle Park, NJ 07662</p>
     <h3 class="action-h3">The only 3 letters better than B-B-Q are J-M-F, you’ll get them both</h3>
-    <p>Come out and have some fun! Spend a day enjoying great food, drink, people,
-        and games all while raising money for the Jack Mattsson Foundation
-        This is rain or shine! In the event of any showers we’ve got that covered
+    <p>Come out and have some fun! Spend a day enjoying great food, drink, people, and games all while raising money
+        for the Jack Mattsson Foundation This is rain or shine! In the event of any showers we’ve got that covered
         (literally), the pavilion is equipped for all sorts of weather</p>
-    <h4>More details to follow</h4>
+    <h4>Details:</h4>
+    <p><strong>$40 per person</strong> – Includes food, beer, wine, soda, etc (children under 13 are free)</p>
+    <><strong>RSVP no later than May 31</strong> via email to:
+    <a href="mailto:jackmattssonfoundation@gmail.com"> jackmattssonfoundation@gmail.com</a>;
+    include number of attendees and names of attendees</p>
+    <p><strong>Payment Methods</strong></p>
+    <ul>
+        <li>Paypal using jackmattssonfoundation@gmail.com (in the notes field please include the term “BBQ” and the # of attendees)</li>
+        <li>Check by mail to:
+            Jack Mattsson Foundation
+            224 Pinelynn Rd
+            Glen Rock, NJ 07452
+            <small>(include your phone number or email address on your check)</small>
+        </li>
+        <li>Cash or Check at the door</li>
+    </ul>
+    <p><strong>Custom T-Shirts are available for you to order!</strong>  We think you’re going to like them
+        - whether you’re able to attend the BBQ or not.  See Order link below.</p>
+    <p>You have a choice of shirts and colors and can pick a delivery method (shipped to an address of your choice for
+        a small fee or pick it up at the BBQ event with no shipping costs).</p>
+    <p><strong>The last day to place your order is May 24.</strong></p>
+    <p>Order link: <a href="https://www.customink.com/fundraising/jack_mattsson_foundation_bbq">https://www.customink.com/fundraising/jack_mattsson_foundation_bbq</a></p>
+    <p>All orders for T-shirts will be printed and shipped after the May 24th window closes.  Shipments arrive within 2 weeks.</p>
 </div>
 
 <div class="container">
@@ -39,7 +60,7 @@
             <p><strong>Caroline Taylor, </strong>star Jaspers soccer player,
                 for working with Manhattan College to get us be recognized at the event and coordinating much behind the scenes activities.</p>
             <p><strong>Manhattan College </strong>for embracing our foundation and being a wonderful and accommodating host.</p>
-            <p><strong>Bill and Sara Taylor </strong>for donating T-shirts for us to sell.</p>
+            <p><strong>Versabar Corporation </strong>for donating T-shirts for us to sell.</p>
             <p><strong>Kathleen Lynch </strong>for providing so much of the food and baked goods.  Nobody went home hungry.</p>
             <!--              <img src="public/img/waterDump.jpg" class="img-fluid">-->
         </div>
