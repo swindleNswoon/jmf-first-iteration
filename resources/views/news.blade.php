@@ -8,7 +8,7 @@
     <p>Check back with us. We will be announcing our next event(s) soon.</p>
 </div>
 
-<div class="container">
+<div class="container event-container">
     <h3>Past Events</h3>
     <div class="container">
       <h3 class="nostyle">JMF BBQ</h3>
@@ -35,7 +35,7 @@
             </div>
         </div>
     </div>
-    <div class="container">
+    <div class="container event-container">
     <h3 class="nostyle">Manhattan College Women's Soccer vs Niagra University</h3>
     <div class="row">
         <div class="col-md-6">
