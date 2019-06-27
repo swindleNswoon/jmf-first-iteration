@@ -5,40 +5,37 @@
 </div>
 <div class="container upcoming-container">
     <h3>Upcoming Events</h3>
-    <h3 class="action-h3">Our first annual Pig Roast and BBQ:</h3>
-    <h4>** HOLD THE DATE **</h4>
-    <p>Saturday June 15, 2019 2pm - 7pm <br> The American Legion Post <br> 33 West Passaic St, Rochelle Park, NJ 07662</p>
-    <h3 class="action-h3">The only 3 letters better than B-B-Q are J-M-F, you’ll get them both</h3>
-    <p>Come out and have some fun! Spend a day enjoying great food, drink, people, and games all while raising money
-        for the Jack Mattsson Foundation This is rain or shine! In the event of any showers we’ve got that covered
-        (literally), the pavilion is equipped for all sorts of weather</p>
-    <h4>Details:</h4>
-    <p><strong>$40 per person</strong> – Includes food, beer, wine, soda, etc (children under 13 are free)</p>
-    <><strong>RSVP no later than May 31</strong> via email to:
-    <a href="mailto:jackmattssonfoundation@gmail.com"> jackmattssonfoundation@gmail.com</a>;
-    include number of attendees and names of attendees</p>
-    <p><strong>Payment Methods</strong></p>
-    <ul>
-        <li>Paypal using jackmattssonfoundation@gmail.com (in the notes field please include the term “BBQ” and the # of attendees)</li>
-        <li>Check by mail to:
-            Jack Mattsson Foundation
-            224 Pinelynn Rd
-            Glen Rock, NJ 07452
-            <small>(include your phone number or email address on your check)</small>
-        </li>
-        <li>Cash or Check at the door</li>
-    </ul>
-    <p><strong>Custom T-Shirts are available for you to order!</strong>  We think you’re going to like them
-        - whether you’re able to attend the BBQ or not.  See Order link below.</p>
-    <p>You have a choice of shirts and colors and can pick a delivery method (shipped to an address of your choice for
-        a small fee or pick it up at the BBQ event with no shipping costs).</p>
-    <p><strong>The last day to place your order is May 24.</strong></p>
-    <p>Order link: <a href="https://www.customink.com/fundraising/jack_mattsson_foundation_bbq">https://www.customink.com/fundraising/jack_mattsson_foundation_bbq</a></p>
-    <p>All orders for T-shirts will be printed and shipped after the May 24th window closes.  Shipments arrive within 2 weeks.</p>
+    <p>Check back with us. We will be announcing our next event(s) soon.</p>
 </div>
 
 <div class="container">
     <h3>Past Events</h3>
+    <div class="container">
+      <h3 class="nostyle">JMF BBQ</h3>
+      <p>Our first JMF BBQ was on June 15, 2019 (Father’s Day weekend).  It was a great success!
+          About 180 people enjoyed food, drink, music, a photo booth, karaoke singing, dancing, and cornhole games.</p>
+      <p><strong>We raised over $10,000 for our mission!</strong>  Thank you soo much!!  And, to all those who helped during the event,
+          we are so grateful for your support.  It couldn’t have happened without you. You were everything.</p>
+      <p>Whether you were able to make it there in person or send in your donation, we greatly appreciate your support
+          and enthusiasm to be part of the foundation.  It was three years ago on Father’s Day that Jack was diagnosed
+          with his cancer.  It is because of that day, we were together remembering and celebrating Jack and his wishes.</p>
+      <p><strong>Special thanks to:</strong></p>
+        <ul>
+            <li>The <strong>American Legion Hall Post 190</strong> in Rochelle Park, NJ.  It was the perfect venue for us.</li>
+            <li>The <strong>Glen Rock Inn</strong> in Glen Rock, NJ for donating the beer and wine.  Thank you Victor and Evan Quinn.</li>
+        </ul>
+        <div class="row">
+            <div class="col-md-6">
+                <img class="img-margin img-fluid" src="{{asset('img/pigShirt.jpg')}}">
+                <img class="img-margin img-fluid" src="{{asset('img/bbqSunglasses.jpg')}}">
+            </div>
+            <div class="col-md-6">
+                <img class="img-margin img-fluid" src="{{asset('img/jmfBbqTables.jpg')}}">
+                <img class="img-margin img-fluid" src="{{asset('img/jmfCornhole.jpg')}}">
+            </div>
+        </div>
+    </div>
+    <div class="container">
     <h3 class="nostyle">Manhattan College Women's Soccer vs Niagra University</h3>
     <div class="row">
         <div class="col-md-6">
@@ -62,13 +59,13 @@
             <p><strong>Manhattan College </strong>for embracing our foundation and being a wonderful and accommodating host.</p>
             <p><strong>Versabar Corporation </strong>for donating T-shirts for us to sell.</p>
             <p><strong>Kathleen Lynch </strong>for providing so much of the food and baked goods.  Nobody went home hungry.</p>
-            <!--              <img src="public/img/waterDump.jpg" class="img-fluid">-->
         </div>
     </div>
     <div class="row">
         <div class="col-md-12">
             <img class="img-fluid img-margin" src={{asset('img/errybody.jpg')}} >
         </div>
+    </div>
     </div>
 </div>
 @endsection
